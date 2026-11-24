@@ -1,0 +1,55 @@
+control,tipo,registro,detalle
+AC-01,DESVINCULADO_ACTIVO,amena,TEMPORAL desvinculado el 2026-01-11
+AC-01,DESVINCULADO_ACTIVO,broa,TEMPORAL desvinculado el 2026-01-21
+AC-01,DESVINCULADO_ACTIVO,bsegovia,TEMPORAL desvinculado el 2026-01-28
+AC-01,DESVINCULADO_ACTIVO,calvarez,PLANTA desvinculado el 2026-04-18
+AC-01,DESVINCULADO_ACTIVO,eriveros,TEMPORAL desvinculado el 2026-01-11
+AC-01,DESVINCULADO_ACTIVO,fmolina,TEMPORAL desvinculado el 2026-01-20
+AC-01,DESVINCULADO_ACTIVO,gmedel,PLANTA desvinculado el 2026-03-30
+AC-01,DESVINCULADO_ACTIVO,jcarmona,TEMPORAL desvinculado el 2026-01-26
+AC-01,DESVINCULADO_ACTIVO,jvidal,TEMPORAL desvinculado el 2026-01-30
+AC-01,DESVINCULADO_ACTIVO,lbobadilla,TEMPORAL desvinculado el 2026-01-10
+AC-01,DESVINCULADO_ACTIVO,lguajardo,TEMPORAL desvinculado el 2026-01-13
+AC-01,DESVINCULADO_ACTIVO,lherrera,TEMPORAL desvinculado el 2026-01-28
+AC-01,DESVINCULADO_ACTIVO,mtoledo,TEMPORAL desvinculado el 2026-01-26
+AC-01,DESVINCULADO_ACTIVO,opino,TEMPORAL desvinculado el 2026-01-07
+AC-01,DESVINCULADO_ACTIVO,pcastillo,PLANTA desvinculado el 2026-04-08
+AC-01,DESVINCULADO_ACTIVO,sorellana,PLANTA desvinculado el 2026-07-21
+AC-01,LOGIN_POST_SALIDA,broa,Inicio sesion despues de su desvinculacion
+AC-01,LOGIN_POST_SALIDA,eriveros,Inicio sesion despues de su desvinculacion
+AC-01,LOGIN_POST_SALIDA,jvidal,Inicio sesion despues de su desvinculacion
+AC-01,LOGIN_POST_SALIDA,lguajardo,Inicio sesion despues de su desvinculacion
+AC-01,LOGIN_POST_SALIDA,mtoledo,Inicio sesion despues de su desvinculacion
+AC-02,CONFLICTO_SOD,abustos,EXPORTAR_DATOS_CLIENTES + ADMIN_USUARIOS (riesgo MEDIO)
+AC-02,CONFLICTO_SOD,acampos,EMITIR_PAGO + APROBAR_PAGO (riesgo ALTO)
+AC-02,CONFLICTO_SOD,asilva,ADMIN_USUARIOS + APROBAR_PAGO (riesgo ALTO)
+AC-02,CONFLICTO_SOD,madasme,CREAR_OC + APROBAR_OC (riesgo ALTO)
+AC-02,CONFLICTO_SOD,nfuentealba,CREAR_PROVEEDOR + APROBAR_PAGO (riesgo ALTO)
+AC-02,CONFLICTO_SOD,smelo,CREAR_PROVEEDOR + APROBAR_PAGO (riesgo ALTO)
+AC-03,ADMIN_FUERA_DE_TI,abustos,Analista de datos de Comercial con rol ADMIN_TI
+AC-03,ADMIN_FUERA_DE_TI,dvillarroel,Conductor repartidor de Reparto con rol ADMIN_TI
+AC-03,ADMIN_FUERA_DE_TI,jortiz,Operador de bodega de Operaciones con rol ADMIN_TI
+AC-03,ADMIN_FUERA_DE_TI,ssilva,Analista de tesoreria de Finanzas con rol ADMIN_TI
+AC-03,GENERICA_PRIVILEGIADA,admin,Cuenta generica sin dueno con rol ADMIN_TI y sin aprobacion
+AC-03,GENERICA_PRIVILEGIADA,soporte01,Cuenta generica sin dueno con rol ADMIN_TI y sin aprobacion
+AC-03,PRIVILEGIO_SIN_APROBACION,mguzman,Rol ADMIN_TI asignado sin aprobador ni ticket
+AC-04,SIN_LOGIN_90_DIAS,bsaldias,Ultimo login hace 122 dias
+AC-04,SIN_LOGIN_90_DIAS,ecubillos,Ultimo login hace 148 dias
+AC-04,SIN_LOGIN_90_DIAS,fgonzalez,Ultimo login hace 204 dias
+AC-04,SIN_LOGIN_90_DIAS,jsepulveda,Ultimo login hace 127 dias
+AC-04,SIN_LOGIN_90_DIAS,kvera,Ultimo login hace 127 dias
+AC-04,SIN_LOGIN_90_DIAS,lbaeza,Ultimo login hace 127 dias
+AC-04,SIN_LOGIN_90_DIAS,lnunez,Ultimo login hace 165 dias
+AC-04,SIN_LOGIN_90_DIAS,mreyes,Ultimo login hace 161 dias
+CM-01,APROBACION_POSTERIOR,CHG-2026-033,Se aprobo despues de pasar a produccion
+CM-01,APROBACION_POSTERIOR,CHG-2026-035,Se aprobo despues de pasar a produccion
+CM-01,APROBACION_POSTERIOR,CHG-2026-045,Se aprobo despues de pasar a produccion
+CM-01,AUTOAPROBADO,CHG-2026-010,El mismo que implemento lo aprobo
+CM-01,AUTOAPROBADO,CHG-2026-023,El mismo que implemento lo aprobo
+CM-01,AUTOAPROBADO,CHG-2026-051,El mismo que implemento lo aprobo
+CM-01,AUTOAPROBADO,CHG-2026-060,El mismo que implemento lo aprobo
+CM-01,SIN_APROBACION,CHG-2026-007,Paso a produccion sin aprobacion
+CM-01,SIN_APROBACION,CHG-2026-018,Paso a produccion sin aprobacion
+CM-01,SIN_APROBACION,CHG-2026-043,Paso a produccion sin aprobacion
+CM-01,SIN_APROBACION,CHG-2026-046,Paso a produccion sin aprobacion
+CM-01,SIN_APROBACION,CHG-2026-053,Paso a produccion sin aprobacion
